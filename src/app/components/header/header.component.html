@@ -1,49 +1,70 @@
-<div class="pri_header">
-  <span (click)="sendEmail()">
-    <i class="fa-regular fa fa-envelope"></i> email
-  </span>
-  <span (click)="copyMobile()">
-    <i class="fa-solid fa fa-phone"></i> mobile {{ mobileNumber }}
-  </span>
-</div>
-<header class="sec_header">
-  <div class="logo">
-    <img src="assets/logo2.png" alt="Logo" />
+<header>
+  <div class="header-top">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5 col-sm-12 right_info">
+                  <p><i class="fa fa-map-marker"></i> Basai, Gurugram / Greater Kailash, New Delhi</p>
+              </div>
+              <div class="col-md-7 col-sm-12 left_info">
+                  <ul>
+                      <li><i class="fa fa-mobile-alt"></i><a>+91 7042471751</a></li>
+                      <li><i class="fa fa-envelope" aria-hidden="true"></i><a>info@bytegarden.com</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
   </div>
-  <nav class="nav-links">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li class="dropdown">
-        <a href="#">Services <i class="fa fa-caret-down"></i></a>
 
-        <ul class="dropdown-content">
-          <li><a href="#">Service 1</a></li>
-          <li><a href="#">Service 2</a></li>
-          <li><a href="#">Service 3</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Portfolio</a></li>
-      <li class="dropdown">
-        <a href="#">Technology <i class="fa fa-caret-down"></i></a>
+  <div class="header-main">
+      <div class="container">
+          <nav id='cssmenu'>
+              <div class="logo">
+                  <a><img src="assets/logo2.png"></a>
+              </div>
+              <div id="head-mobile"></div>
+              <div class="button"></div>
+              <ul>
+                  <li class='active'><a>Home</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Services</a>
+                      <ul>
+                          <li><a>Services 1</a></li>
+                          <li><a>Services 2</a>
+                              <ul>
+                                  <li><a>Services 21</a></li>
+                              </ul>
+                          </li>
 
-        <ul class="dropdown-content">
-          <li><a href="#">Service 1</a></li>
-          <li><a href="#">Service 2</a></li>
-          <li><a href="#">Service 3</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Blog</a></li>
-      <li class="dropdown">
-        <a href="#">Company <i class="fa fa-caret-down"></i></a>
+                          <li><a>Services 3</a></li>
+                          <li><a>Services 4</a></li>
+                      </ul>
+                  </li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Technologies</a>
+                    <ul>
+                        <li><a>Services 1</a></li>
+                        <li><a>Services 2</a>
+                            <ul>
+                                <li><a>Services 21</a></li>
+                            </ul>
+                        </li>
 
-        <ul class="dropdown-content">
-          <li><a href="#">Service 1</a></li>
-          <li><a href="#">Service 2</a></li>
-          <li><a href="#">Service 3</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </nav>
+                        <li><a>Services 3</a></li>
+                        <li><a>Services 4</a></li>
+                    </ul>
+                </li>
+                  <li><a>Blog</a></li>
+                  <li><a>Company</a>
+                    <ul>
+                        <li><a>FAQs</a></li>
+                        <li><a>Testimonials</a></li>
+                        <li><a>Refer a Friend</a></li>
+                        <li><a>Who We Serve</a></li>
+                    </ul>
+                </li>
+                  <li><a>Contact Us</a></li>
+              </ul>
+          </nav>
+      </div>
+  </div>
 </header>
