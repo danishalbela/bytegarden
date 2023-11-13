@@ -1,0 +1,24 @@
+<div class="services_section">
+  <span class="services_head"
+    >Robust & Effective Development Solutions To make Your Business Thrive</span
+  >
+  <span class="services_description"
+    >As a full-fledged website, software,and App Development company, we offer a
+    wide array of developement Solutions to engender the growth of businesses
+    and uplift their online brand value. with a team full of creative minds and
+    a result-driven work model, we focus on leading your business towards
+    success.</span
+  >
+  <div class="section_cards">
+    <div class="card" *ngFor="let item of cardData">
+        <img
+          src="{{item.image}}"
+          alt=""
+        />
+        <span class="card_head">{{item.title}}</span>
+        <p class="card_desc">
+         {{item.description}}
+        </p>
+    </div>
+  </div>
+</div>

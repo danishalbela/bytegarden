@@ -1,0 +1,36 @@
+.services_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 33px 9% 25px 9%;
+    .services_head{
+        font-size: 25px;
+        font-weight: 700;
+        color: #EE4E34;
+    }
+    .services_description{
+        text-align: center;
+    }
+    .section_cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .card{
+            display: flex;
+            max-width: 400px;
+            max-height: 800px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            padding: 12px ;
+            img{
+                width: 150px;
+                height: 150px;
+                
+            }
+            .card_head{}
+            .card_desc{}
+        }
+    }
+}
