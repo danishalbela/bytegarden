@@ -2,10 +2,12 @@ import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
+import { ShuffleHeroComponent } from './shuffle-hero/shuffle-hero.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
- {path:'about',component:AboutComponent}
+ {path:'about',component:AboutComponent},
+ {path:'hero',component:ShuffleHeroComponent}
 ];
 
 @NgModule({
