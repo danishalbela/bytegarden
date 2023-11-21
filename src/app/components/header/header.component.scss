@@ -1,6 +1,6 @@
 header {
-    position: relative;
-    width: 100%;
+    position: fixed;
+    top: 0;
     z-index: 99;
 }
 /*---------header close----------*/
@@ -8,6 +8,7 @@ header {
 .header-top {
     padding: 5px 0px 5px 0px;
     background: #EE4E34;
+    width: 100vw;
 }
 .left_info ul li {
     display: inline-block;
@@ -67,6 +68,10 @@ header i.fa.fa-mobile {
          height: 90px;
         }
     }
+    .container{
+        position: relative;
+        padding: 12px 0;
+    }
 }
 /*-----------header-top Close------------*/
 /*-----------header-menu------------*/
@@ -75,9 +80,10 @@ nav#cssmenu ul {
     // align-items: center;
     // justify-content: center;
     float: right;
-    margin-top: 13px;
+    margin: 0;
 }
-.logo{position:relative;z-index:123;padding:10px;font:18px verdana;color:#6DDB07;float:left;}
+.logo{position: absolute;
+    top: 0;z-index:123;padding:10px;font:18px verdana;color:#6DDB07;float:left;}
 .logo img {
     max-width: 170px;
 }
@@ -85,7 +91,7 @@ nav#cssmenu ul {
 #cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #head-mobile{border:0;list-style:none;line-height:1;display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 #cssmenu:after,#cssmenu > ul:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
 #cssmenu #head-mobile{display:none}
-#cssmenu > ul > li{float:left}
+#cssmenu > ul > li{float:left;cursor: pointer;}
 #cssmenu > ul > li > a {
     padding: 9px 17px;
     font-size: 16px;
