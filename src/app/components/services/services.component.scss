@@ -1,4 +1,5 @@
 .services_section{
+  background-color: #ebfffe;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,9 +14,11 @@
         text-align: center;
     }
     .section_cards{
+         margin-top: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
+        // box-shadow: 0 0 5px -9px;
         .card{
             display: flex;
             max-width: 400px;
@@ -23,14 +26,57 @@
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            padding: 12px ;
+            padding: 12px;
+            box-shadow: 0 0 10px 5px;
             img{
                 width: 150px;
                 height: 150px;
                 
             }
-            .card_head{}
-            .card_desc{}
+            .card_head{
+                
+            }
+            .card_desc{
+
+            }
         }
     }
+}
+
+
+
+//
+
+.section_cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 347px;
+  height: 400px;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12%;
+    margin-bottom: 10px;
+  }
+
+  .card_head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .card_desc {
+    font-size: 14px;
+    color: #555;
+  }
 }
