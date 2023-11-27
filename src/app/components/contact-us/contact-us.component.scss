@@ -1,0 +1,114 @@
+// .contact-section {
+//   background-color: rgb(224 224 224);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+// .one span {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// #form-sec {
+//   background-color: #ffffff;
+//   border-radius: 5px;
+//   // border: 2px solid red;
+//   width: 500px;
+//   margin-right: 20px;
+//   margin: 62px 0;
+// }
+// .title {
+//   margin-top: 10px;
+//   padding: 5px;
+//   line-height: 15px;
+// }
+// .title h2 {
+//   color: black;
+//   font-family: monospace;
+//   font-weight: 700;
+// }
+// .title p {
+//   color: black;
+//   font-family: sans-serif;
+//   // font-weight: 700;
+// }
+// .input-group {
+//   margin: 10px;
+// }
+// .input-group label {
+//   display: inline-block;
+//   width: 100%;
+//   font-size: 15px;
+//   font-weight: 700;
+// }
+// .input-group input {
+//   display: block;
+//   width: 80%;
+//   padding: 7px;
+//   background-color: #ffa500;
+//   color: rgb(0, 0, 0);
+// }
+
+// #Message {
+//   width: 80%;
+//   height: 100px;
+//   // padding: 7px;
+//   background-color: rgb(45, 43, 40);
+//   color: rgb(255, 255, 255);
+// }
+
+// .btn {
+//   background-color: rgb(8, 93, 8);
+//   display: block;
+//   width: 30%;
+//   padding: 6px 0;
+//   font-size: 20px;
+//   border-radius: 15px;
+//   margin-left: 150px;
+//   color: rgb(255, 255, 255);
+//   margin-bottom: 10px;
+// }
+// .btn:hover {
+//   text-decoration: underline;
+// }
+
+.contact-section {
+  padding: 0 10%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  .left_contact {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    .contact_box {
+      display: flex;
+      margin: 0 28px 0 0;
+      padding: 10px;
+      margin-bottom: 8px;
+      background: aliceblue;
+      .contact_image {
+        border: 4px;
+        background: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        img {
+          width: 28px;
+        }
+      }
+      .contact_data {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+    }
+  }
+  .right_contact {
+    padding: 15px;
+    background: rgb(241, 183, 183);
+  }
+}
